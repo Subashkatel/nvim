@@ -1,5 +1,4 @@
 -- Rafi's Neovim options
--- github.com/rafi/vim-config
 -- ===
 
 -- This file is automatically loaded by config.init or plugins.core

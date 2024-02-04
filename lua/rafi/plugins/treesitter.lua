@@ -1,5 +1,4 @@
 -- Plugins: Tree-sitter and Syntax
--- https://github.com/rafi/vim-config
 
 return {
 

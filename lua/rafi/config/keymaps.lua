@@ -1,5 +1,4 @@
 -- Rafi's Neovim keymaps
--- github.com/rafi/vim-config
 -- ===
 -- This file is automatically loaded by rafi.config.init
 

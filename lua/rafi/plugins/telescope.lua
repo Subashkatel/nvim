@@ -1,5 +1,5 @@
 -- Plugin: telescope.nvim
--- https://github.com/rafi/vim-config
+
 
 -- Helpers
 

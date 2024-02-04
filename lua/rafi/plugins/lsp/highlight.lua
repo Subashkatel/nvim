@@ -1,5 +1,4 @@
 -- LSP: Highlights
--- https://github.com/rafi/vim-config
 
 -- This is part of LunarVim's code, with my modifications.
 -- Reference: https://github.com/LunarVim/LunarVim

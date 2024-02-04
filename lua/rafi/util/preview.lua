@@ -1,5 +1,4 @@
 -- Util: Preview (requires telescope)
--- https://github.com/rafi/vim-config
 
 ---@class rafi.util.preview
 local M = {}

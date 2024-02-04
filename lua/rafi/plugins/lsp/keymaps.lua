@@ -1,5 +1,4 @@
 -- LSP: Key-maps
--- https://github.com/rafi/vim-config
 
 local M = {}
 

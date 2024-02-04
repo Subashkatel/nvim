@@ -1,5 +1,4 @@
 -- Util: Lualine components
--- https://github.com/rafi/vim-config
 
 ---@class rafi.util.lualine
 local M = {}

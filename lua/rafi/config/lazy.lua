@@ -1,5 +1,4 @@
 -- Rafael Bodill's lazy.nvim initialization
--- https://github.com/rafi/vim-config
 
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 if not vim.loop.fs_stat(lazypath) then

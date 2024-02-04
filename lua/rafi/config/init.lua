@@ -1,5 +1,4 @@
--- Rafi's Neovim config loader
--- https://github.com/rafi/vim-config
+-- Neovim config loader
 
 -- This is part of LazyVim's code, with my modifications.
 -- See: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/init.lua

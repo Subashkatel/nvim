@@ -1,5 +1,4 @@
 -- Util: UI
--- https://github.com/rafi/vim-config
 
 ---@class rafi.util.ui
 local M = {}

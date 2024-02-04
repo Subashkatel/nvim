@@ -1,5 +1,4 @@
 -- Plugins: Coding
--- https://github.com/rafi/vim-config
 
 return {
 

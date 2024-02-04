@@ -1,5 +1,4 @@
 -- Util: Init
--- https://github.com/rafi/vim-config
 
 -- This is part of LazyVim's code, with my modifications.
 -- See: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/util/init.lua

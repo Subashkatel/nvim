@@ -1,5 +1,4 @@
 -- Context-aware menu
--- https://github.com/rafi/vim-config
 
 ---@class rafi.util.contextmenu
 local M = {}

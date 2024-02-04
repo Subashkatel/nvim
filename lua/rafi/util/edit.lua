@@ -1,5 +1,4 @@
 -- Edit utilities
--- https://github.com/rafi/vim-config
 
 ---@class rafi.util.edit
 local M = {}

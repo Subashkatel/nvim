@@ -1,5 +1,4 @@
 -- Plugin: Lualine
--- https://github.com/rafi/vim-config
 
 return {
 

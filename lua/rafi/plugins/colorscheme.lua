@@ -1,5 +1,4 @@
 -- Plugins: Colorschemes
--- https://github.com/rafi/vim-config
 
 return {
 

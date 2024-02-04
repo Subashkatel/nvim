@@ -1,5 +1,4 @@
 -- Plugin: Neo-tree
--- https://github.com/rafi/vim-config
 
 local winwidth = 30
 
