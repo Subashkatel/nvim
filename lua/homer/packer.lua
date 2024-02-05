@@ -36,13 +36,12 @@ return require("packer").startup(function(use)
   })
 
   use {
-			'nvim-treesitter/nvim-treesitter',
-			run = function()
-				local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-				ts_update()
-			end,}
-  use("nvim-treesitter/playground")
-
+      'nvim-treesitter/nvim-treesitter',
+      run = function()
+          local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+          ts_update()
+      end,
+ }
 -- use("~/personal/harpoon")
 
   use("theprimeagen/vim-be-good")
@@ -77,7 +76,7 @@ return require("packer").startup(function(use)
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
-  use("laytan/cloak.nvim")
+--   use("laytan/cloak.nvim") -- don't need it it for the background
 
 end)
 
