@@ -26,6 +26,7 @@ return {
         require("mason").setup()
         require("mason-lspconfig").setup({
             ensure_installed = {
+                "clangd",
                 "lua_ls",
                 "rust_analyzer",
                 "tsserver",
@@ -49,6 +50,12 @@ return {
                                 }
                             }
                         }
+                    }
+                end,
+                ["clangd"] = function()
+                    local lspconfig = require("lspconfig")
+                    lspconfig.clangd.setup{
+                        capabilities = capabilities,
                     }
                 end,
             }
