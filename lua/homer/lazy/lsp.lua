@@ -29,7 +29,7 @@ return {
                 "clangd",
                 "lua_ls",
                 "rust_analyzer",
-                "tsserver",
+                "ts_ls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
