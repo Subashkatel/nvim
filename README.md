@@ -73,10 +73,17 @@ Leader key: `<Space>`
 - `<leader>u` → Toggle Undotree
 
 ### LaTeX (Vimtex)
-- File auto-compiles continuously with latexmk
+- File auto-compiles continuously with latexmk (`-pvc` flag)
 - Auto-saves on idle (1 sec) for .tex files
 - PDF viewer: Skim (macOS) with synctex for forward/inverse search
 - Common warnings filtered (hbox, siunitx, hyperref, etc.)
+- `:VimtexCompile` → Toggle continuous compilation
+- `:VimtexView` → Open PDF in Skim
+- `:VimtexStop` → Stop compilation
+- `:VimtexClean` → Remove generated files (aux, log, pdf)
+- `:VimtexClean!` → Clean all intermediate files
+- `:VimtexErrors` → Open quickfix list with errors/warnings
+- `:VimtexToggleMain` → Switch main document (for multi-file projects)
 
 ### Focus / Zen
 - `<leader>zz` → Zen mode (90 cols, keep numbers)
