@@ -58,6 +58,11 @@ vim.keymap.set(
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
 vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
+    local file = vim.fn.expand("%")
+    if file:match("%.lua$") or file:match("%.vim$") then
+        vim.cmd("so")
+    else
+        print("Cannot source non-config file: " .. file)
+    end
 end)
 
