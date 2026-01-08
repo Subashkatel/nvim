@@ -7,6 +7,6 @@ return {
     },
     config = function()
         require("nvim-tree").setup({})
-        vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>")
+        vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<cr>", { nowait = true })
     end,
 }
